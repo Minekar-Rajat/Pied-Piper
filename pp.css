@@ -1,0 +1,744 @@
+#hlines,#loginbtn1{
+   display: none; 
+}
+#close{
+      display: none;
+      float: right;
+      margin-right: 3vh;
+      margin-top: 2.5vh;
+      height: 5vh;
+      width: 4vw;
+      
+}
+
+#myModal{
+   left: 50%;
+
+}
+
+
+#pp-about{
+   border-radius: 2vw;
+   height: 20vh;
+   width: 10vw;
+}
+
+@media only screen and (max-width: 750px) {
+   #home,#team,#pc,#ant,#about,#loginbtn{
+      display: none;
+   }
+   #myModal{
+      text-align: center;
+      vertical-align: middle;
+      margin-left: 30vw;
+   }   
+
+   #loginbtn1{
+      display: block;
+   }
+   #hlines{
+      display: block;
+      float: right;
+      margin-right: 3vh;
+      margin-top: 2.5vh;
+   }
+   input{
+      width: 10vw;
+   }
+   #Login,#SignUp {
+      margin-right: 2.25vh;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+   
+   }
+ }
+
+
+#myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+ }
+
+#s3{
+   color: rgb(255, 255, 255);
+   font-size: 8vh;
+}
+
+.image1{
+   width: 20vw;
+   height: 30vh;
+   margin-left: 5vh;
+   margin-top: 1vh;
+}
+
+#s4{
+   color: rgb(255, 255, 255);
+   font-size: 4vh;
+}
+
+.home-div{
+   font-size: 2vh;
+   animation-name: aeffect1;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+}
+
+@keyframes aeffect1{
+   from{
+         margin-top: 20vh;
+   }
+   to{
+         margin-top: 0vh;
+   }
+
+}
+
+
+.about-div1{
+   background-color: rgba(255, 255, 255, 0);
+   margin-top: 16vh;
+   color: rgb(13, 14, 13);
+   font-size: 2vh;
+   
+
+
+}
+
+#s5{
+   color: rgb(255, 255, 255);
+   font-size: 2.5vh;
+
+}
+
+
+#s2{
+   color: whitesmoke;
+   font-size: 3vh;
+}
+
+ .content {
+   position: relative;
+   bottom: 0;
+   background: rgba(0, 0, 0,0.125);
+   width: 100%;
+   padding: 20px;
+ }
+
+ .content1{
+   position: relative;
+   width: 100%;
+
+ }
+
+body{
+   background-color: black;   
+   text-align: center;
+}
+input{
+   background-color: rgba(255, 255, 255, 0.8);
+   color: rgba(0, 0, 0, 0.849);
+   font-weight: 550;
+   padding-left: 0.75vw;
+}
+
+.my{
+
+   color: rgb(46, 211, 46);
+   font-size: 3.5vh;
+   font-weight: bold;
+}
+
+
+
+#sym{
+   height: 8vh;
+   width: 4vw;
+}
+
+h3{
+   font-size: 2vw;
+   color: cornsilk;
+}
+large{
+   font-size: 1.15vw;
+   margin-top: 0.025vh;
+}
+strong,label,strong1{
+   color: blanchedalmond;
+   font-weight: bold;
+   font-size: 1vw;
+}
+#s1{
+      color: black;
+      font-weight: bold;
+      font-size: 3.5vh;
+}
+b1{
+   color:  #3b5998  ;
+   font-weight: bolder;
+}
+
+#loginbtn{
+   height: 4.5vh;
+   font-size: 2vh;
+   padding-top: 0.5vh;
+   padding-bottom: 2vh;
+   
+
+}
+
+
+.headl,.heads{
+   float: left;
+   margin-left: 5vw;
+
+}
+a:hover,a{
+   color: black;
+   text-decoration: none;
+}
+
+
+.block-img{
+   height: 10vw;
+   width: 10vw;
+   border-radius: 10vw;
+   box-shadow:  10px 10px 10px rgba(54, 51, 51, 0.397);  
+   
+
+}
+
+
+#join,#login{
+      width: 10vw;
+      border-radius: 10%;
+      /* padding: auto; */
+      margin-left: 1vw;
+      margin-top: 0vw;
+
+
+}
+#join:hover,#login:hover{
+   animation: none;
+   border-color: lawngreen ;
+   border-style: solid;
+   border-width: 0.5mm;
+}
+
+
+.float{
+   float: left;
+   margin-top: 5vw;
+   color: whitesmoke;
+}
+
+.block-name{
+   color: seashell;
+   
+}
+
+.block{
+   padding: 2vw;
+   border-style: solid;
+   border-color: whitesmoke;
+   border-radius: 60px;
+   color: seashell;
+   margin-top: 2vw;
+   margin-left: 6vw;
+   width: 40vw;
+   background-color: rgb(36, 32, 32);
+   box-shadow:  10px 10px 10px rgba(54, 51, 51, 0.397);
+   
+
+}
+
+.block:hover{
+        /* transform: rotateX(180);*/
+        /* transition-delay: 2s; */
+         transition: border-radius 5s;
+         animation-name: rot;
+         animation-duration: 2s;
+         animation-fill-mode: forwards;
+         border-radius: 20px;
+         
+         
+
+}
+
+
+
+
+@keyframes rot{
+   from{
+      
+   }
+   to{
+      background-color: rgb(33, 35, 65);
+      transform: rotateX(180deg);
+   }
+}
+
+.symbol{
+   height: 0.30vh;
+   width: 9%;
+   margin-left: 45vw;
+   background-color: lawngreen;
+   margin-top: 1vh;
+   position: relative;
+   animation-name: line;
+   animation-duration: 2s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+}
+@keyframes line{
+
+   from{
+      width: 0%;
+   }
+   to{
+      width: 9%;
+   }
+}
+
+
+
+
+.anim{
+   height: 0.25vh;
+   width: 100%;
+   background-color: wheat;
+   margin-top: auto;
+}
+
+.about-div{
+   background-color: rgba(255, 255, 255, 0.884);
+   
+   color: rgb(13, 14, 13);
+   font-size: 2vh;
+   animation-name: aeffect;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+
+
+}
+
+
+
+@keyframes aeffect{
+   from{
+         margin-top: 40vh;
+   }
+   to{
+         margin-top: 10vh;
+   }
+
+}
+
+.team-div{
+   animation-name: teffect;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+}
+
+@keyframes teffect{
+   from{
+         margin-top: 20vh;
+   }
+   to{
+         margin-top: 0vh;
+   }
+
+}
+
+.text{
+   margin-top: 4vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 3vh;
+
+}
+
+.img-div{
+   padding-top: 10vh;
+}
+
+#home-img{
+   box-shadow: 1vh 1vh 1vh 1vh #000000;
+}
+
+.image{
+   
+   box-shadow: 10px 10px 10px 10px #888888; 
+   height: 50vh;
+   width: 60vw;
+
+}
+
+.Active{
+   background-color: rgba(0, 0, 0, 0.747);
+   border-bottom: none;
+}
+.modal-header{
+   padding: 0vh;
+   margin-left: 1vw;
+   background-color: rgba(19, 17, 17, 0.837);
+}
+
+
+
+/* -----modal ------*/
+#myModal{
+   left: 15%;
+}
+
+.modal-content{
+   width: 25vw;
+}
+.modal-header,.close{
+
+   color: black;
+   border: none;
+   margin-left: 0vw;
+
+}
+.row{
+   margin-left: 0vw;
+}
+.modal-body{
+   background-color: rgba(0, 0, 0, 0.947);
+   
+   
+}
+.modal-footer{
+   border: none;
+   background-color: rgb(0, 0, 0,0.947);
+}
+
+#ip{
+   margin-top: 3vh;
+   font-size: 2vh;
+   
+}
+
+#pp1{
+   width: 6vw;
+   height: 8vh;
+   margin-left: 1vw;
+}
+
+
+
+
+
+
+/*-----media------*/
+.fa {
+   padding: 1vw;
+   font-size: 5vh;
+   width: 5vw;
+   text-align: center;
+   text-decoration: none;
+   margin: 1vw 1vw;
+   border-radius: 50%;
+   font-size: 3vw;
+ }
+ 
+ .fa:hover {
+   background: rgba(255, 255, 255, 0.7); 
+ }
+ 
+ .fa-facebook {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-twitter {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-google {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-linkedin {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-youtube {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-instagram {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-pinterest {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-snapchat-ghost {
+   background: black;
+   color: white;
+   text-shadow: -1vw 0 black, 0 1vw black, 1vw 0 black, 0 -1vw black;
+ }
+ 
+ .fa-skype {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-android {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-dribbble {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-vimeo {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-tumblr {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-vine {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-foursquare {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-stumbleupon {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-flickr {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-yahoo {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-soundcloud {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-reddit {
+   background: black;
+   color: white;
+ }
+ 
+ .fa-rss {
+   background: black;
+   color: white;
+ }
+ /*-----media------*/
+
+/* ----flip box----  */
+
+.flip-box {
+   background-color: transparent;
+   width: 40vw;
+   height: 35vh;
+   border: none;
+   perspective: 1000px;
+   margin-top: 2vw;
+   margin-left: 6vw;
+   margin-bottom: 2vh;
+ 
+ }
+ 
+ .flip-box-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 1s;
+   transform-style: preserve-3d;
+ }
+ 
+ .flip-box:hover .flip-box-inner {
+   transform: rotateX(180deg);
+ }
+ 
+ .flip-box-front, .flip-box-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+  
+   padding-top: 3vh;
+   border-style: solid;
+   border-color: whitesmoke;
+   border-radius: 3.7406483790523692vw;
+   color: seashell;
+   ;
+   background-color: rgb(36, 32, 32);
+   box-shadow:  2vh 2vh 2vh rgba(54, 51, 51, 0.397);
+   
+ }
+ 
+ .flip-box-front {
+   
+   color: white;
+ }
+ 
+ .flip-box-back {
+   
+   color: white;
+   /* padding: 2vh; */
+   overflow-y: hidden;
+   transform: rotateX(180deg);
+   
+ }
+
+/* Anton */
+
+.anton-div{
+   animation-name: aeffect1;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+}
+
+
+.anton1{
+   height: 50vh;
+   width: 45vw;
+   margin-right: 2vw;
+   margin-top: 3vh;
+
+}
+
+.anton-txt
+{
+   font-size: 3vh;
+   margin-top: 5vh;
+   margin-left: 1vw;
+   margin-right: 1vw;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blanchedalmond;
+}
+
+/* Max Width */
+@media screen and (max-width: 600px) {
+   .anton1{
+      height: 20vh;
+      width: 45vw;
+      margin-right: 2vw;
+      margin-top: 3vh;
+   
+   }
+
+   .anton-txt
+   {
+      font-size: 1.5vh;
+      margin-top: 5vh;
+      margin-left: 1vw;
+      margin-right: 1vw;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: blanchedalmond;
+   }
+
+   .image{
+      height: 20vh;
+      width: 45vw;
+   }
+
+   #s1,#s2{
+      font-size: 2vh;
+   }
+
+   #pp-about{
+      width: 10vw;
+      height: 5vh;
+   }
+   
+   .flip-box {
+      width: 70vw;
+      height: 50vw;
+   }
+   #richard,#erlich,#dinesh,#gilfoyle,#monica,#nelson,#jared{
+      margin-top: 5vh;
+      font-size: 3vw;
+   }
+
+   #large{
+      font-size: 1.5vh;
+      font-weight: bold;
+   }
+   strong{
+      font-size: 1vh;
+   }
+
+   .flip-box-back{
+      overflow-y: scroll;
+   }
+   
+   #s3{
+      font-size: 6vh;
+   }
+
+   .image1{
+      height: 20vh;
+      width: 45vw;
+   }
+
+   #sym{
+      width: 12vw;
+   }
+
+  #myModal{
+     left: -5%;
+   
+  }
+  .modal-content{
+     width: 60vw;
+  }
+  
+
+  #Lgn,#Sgn{
+     font-size: 2vh;
+  }
+   
+  label,strong1{
+   font-size: 1.5vh;
+  }
+  #ip{
+     width: 30vw;
+  }
+  
+  #ip1,#remember{
+   margin-top: 3vh;
+   font-size: 2vh;
+  }
+
+ }
